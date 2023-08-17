@@ -79,7 +79,6 @@ const AddDestination = () => {
             <input type='text' placeholder='country' onChange={handleChange} name='country' required></input>
             <input type='text' placeholder='company' onChange={handleChange} name='company' required></input>
 
-            <button className='formButton' onClick={addSeats}>add seat</button>
             <button className='formButton' onClick={handleClick}>Add</button>
         </div>
     )

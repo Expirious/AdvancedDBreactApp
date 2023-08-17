@@ -73,7 +73,7 @@ const UpdatePassenger = () => {
                 <input type='number' placeholder={passenger.destination} onChange={handleChange} name='destination' required></input>
 
             <label>Seat </label>
-                <input type='number' placeholder={passenger.seat} onChange={handleChange} name='seat' required></input>
+                <input type='number' placeholder={passenger.seat} onChange={handleChange} name='seat' readOnly></input>
 
             <button className='formButton' onClick={handleClick}>Update</button>
         </div>

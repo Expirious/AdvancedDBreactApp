@@ -73,7 +73,7 @@ const AddPassenger = () => {
             <input type='text' placeholder='name' onChange={handleChange} name='name' required></input>
 
             <label>Lastname</label>
-            <input type='text' placeholder='surname' onChange={handleChange} name='surname' req></input>
+            <input type='text' placeholder='surname' onChange={handleChange} name='surname' required></input>
 
             <label>Destination</label>
             <input type='number' placeholder={passenger.destination} onChange={handleChange} name='destination' readOnly></input>
@@ -81,7 +81,7 @@ const AddPassenger = () => {
             <label>Seat</label>
             <input type='number' placeholder={passenger.seat} onChange={handleChange} name='seat' readOnly></input>     
 
-            <button className='formButton' onClick={handleClick}>Add</button>
+            <button className='formButton' type='submit' onClick={handleClick}>Add</button>
         </div>
     )
 }
