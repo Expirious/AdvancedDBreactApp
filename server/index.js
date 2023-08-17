@@ -7,7 +7,7 @@ const app = express()
 const db = myslq.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Adcgt00!',
+    password: 'pass',
     database: 'project'
 })
 
